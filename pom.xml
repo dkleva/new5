@@ -15,7 +15,12 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
     <distributionManagement>
+    <repository>
+        <id>releases</id>
+        <url>http://185.10.185.180:8081/nexus/content/repositories/testq</url>
+    </repository>
     <snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://185.10.185.180:8081/nexus/content/repositories/snapshots</url>
