@@ -27,15 +27,6 @@
     </snapshotRepository>
     </distributionManagement>
 
-    <settings>
-     <servers>
-      <server>
-       <id>releases</id>
-       <username>admin</username>
-       <password>admin123</password>
-     </server>
-     </servers>
-    </settings>
 
     <build>
         <plugins>
