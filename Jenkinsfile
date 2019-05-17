@@ -1,4 +1,10 @@
 pipeline {
+
+   environment {
+     registry = "dkgnim/new1"
+     registryCredential = '044ff476-3603-4b5f-9157-abe9a11ebd7d'
+     dockerImage = ''
+   }
    agent any
 
    stages {
