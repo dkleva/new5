@@ -14,7 +14,7 @@ pipeline {
 
         stage ('build') {
             steps {
-
+               sh 'hostname'
                sh 'mvn package'
                sh 'mvn clean deploy'
 
