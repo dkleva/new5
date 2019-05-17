@@ -29,6 +29,7 @@
 
     <scm>
     <connection>scm:git:https://github.com/dkleva/new5.git</connection>
+        <tag>HEAD</tag>
     </scm>
 
 
