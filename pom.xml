@@ -27,6 +27,10 @@
     </snapshotRepository>
     </distributionManagement>
 
+    <scm>
+    <connection>scm:git:https://github.com/dkleva/new5.git</connection>
+    </scm>
+
 
     <build>
         <plugins>
